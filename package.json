@@ -1,0 +1,24 @@
+{
+  "name": "aimee-v1-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.13.11",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.3.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "string-similarity": "^4.0.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
